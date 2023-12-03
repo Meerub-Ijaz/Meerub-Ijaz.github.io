@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Solutions.css">
+  <title>cafe menu</title>
+  <style>
+
+      /**********Large Device Only**********/ 
+  @media (min-width:992px) {
+   .col-lg-4 {
+      width: 33.33%;
+  }
+  /**********Medium device only**********/
+  @media (min-width:768px) and (max-width:991px) {
+      .col-mg-6 {
+        width: 50%;
+      }
+      .col-md-12 {
+        width: 100%;
+      }
+  }
+  
+  /**********Small Device Only**********/
+  @media (max-width:767px) {
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="container fluid">
+    <div class="row">
+      <h1>Our Menu</h1>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div><h2>Sushi</h2></div>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat tristique nibh, a dignissim quam porttitor eu. Phasellus non erat finibus, cursus sem a, volutpat leo. Praesent vel commodo dolor. Phasellus ultrices ex commodo bibendum luctus. Nullam vel mauris nisi.</p>
+        </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <h2>Beef</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac ex eu lorem lacinia elementum quis iaculis felis. Fusce mattis finibus orci sit amet consequat. Donec rutrum rhoncus viverra.</p>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <h2>Chicken</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac ex eu lorem lacinia elementum quis iaculis felis. Fusce mattis finibus orci sit amet consequat. Donec rutrum rhoncus viverra. Nulla a commodo sapien, sed pulvinar nunc. Aenean dignissim at eros sit amet dapibus.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
